@@ -41,14 +41,14 @@ app.get('', (req, res)=> {
     
     res.render('index', {
         title: 'Weather App',
-        name: 'Jose Abel Ramirez'
+        name: 'Jose Abel Ramirez Frontany'
     });
 })
 
 app.get('/about', (req, res)=> {
     res.render('about', {
         title: 'About me',
-        name: 'Jose Abel Ramirez'
+        name: 'Jose Abel Ramirez Frontany'
     })
 })
 
@@ -56,7 +56,7 @@ app.get('/help', (req, res)=> {
     res.render('help', {
         title: 'Help page',
         message: 'Help!!! rendering a view from the view folder dynamically',
-        name: 'Jose Abel Ramirez'
+        name: 'Jose Abel Ramirez Frontany'
     })
 })
 
@@ -110,7 +110,7 @@ app.get('/help/*', (req, res)=> {
     
     res.render('error', {
         title: '404 Page',
-        name: 'Jose Abel Ramirez',
+        name: 'Jose Abel Ramirez Frontany',
         errorMessage: 'Help article not found'
     });
 
@@ -120,7 +120,7 @@ app.get('*', (req, res)=> {
 
     res.render('error', {
         title: '404 Page',
-        name: 'Jose Abel Ramirez',
+        name: 'Jose Abel Ramirez Frontany',
         errorMessage: 'Page not found'
     });
 })
