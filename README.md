@@ -48,7 +48,7 @@ To start the webpack-dev-server, run the following command:
 
 ## Live version
 
-https://ramirez-weather-application.herokuapp.com
+- [live-version](https://jose-abel-weather-app.herokuapp.com/)
 
 ## Author: Jose Abel Ramirez Frontany\*\*
 
