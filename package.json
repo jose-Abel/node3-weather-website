@@ -15,7 +15,7 @@
     "handlebars": "^4.3.5",
     "hbs": "^4.0.4",
     "kind-of": "^6.0.3",
-    "minimist": "^0.2.1",
+    "minimist": "^1.2.6",
     "request": "^2.88.0",
     "require": "^2.4.20"
   },
